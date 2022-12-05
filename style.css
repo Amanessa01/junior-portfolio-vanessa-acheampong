@@ -1,1 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+	font: bold 11px/1.5em Verdana;
+	}
+
+h1 {
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+  
+  {* (A) CONTAINER */
+#grid-col {
+  /* (A1) GRID LAYOUT */
+  display: grid;
+ 
+  /* (A2) SPECIFY COLUMNS */
+  grid-template-columns: auto auto auto;
+ 
+  /* we can also specify exact pixels, percentage, repeat
+  grid-template-columns: 50px 100px 150px;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-columns: 100px 20% auto;
+  grid-template-columns: repeat(3, auto); */
+}
+ 
+/* (B) GRID CELLS */
+div.cell {
+  background: LightBlue;
+  border: 1px solid Blue;
+  padding: 10px;}
 
